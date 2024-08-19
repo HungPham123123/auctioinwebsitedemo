@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Trajan';
+    src: url(../font-text/Trajan-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'BodoniModa';
+    src: url(../font-text/BodoniModa-Italic-VariableFont_opsz,wght.ttf);
+}
+@font-face {
+    font-family: 'Marcellus';
+    src: url(../font-text/Marcellus-Regular.ttf);
+}
+
+
+
+.nav-container {
+    background-color: transparent;
+    padding: 25px 55px 25px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+}
+
+
+
+.logo-name {
+    font-family: 'Marcellus', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.logo-name:hover {
+    color: #000;
+}
+
+.nav-link-section {
+    font-family: 'Marcellus' sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    padding: 0 20px;
+    display: inline-block;
+    transition: all ease 0.3s
+}
+
+.nav-link-section::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #9F8752;
+    transition: width .3s;
+}
+
+.nav-link-section:hover::after {
+    width: 100%;
+}
+.nav-link-section:hover {
+    color: #9F8752;
+}
+
+.nav-emoji-bar {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar i {
+    font-size: 27px;
+}
+.my-account-nav {
+    cursor: pointer;
+    color: #000;
+    font-size: 24px;
+    margin-left: 15px;
+    transition: all ease 0.3s;
+}
+.my-account-nav i {
+    vertical-align: 2.5px;
+}
+.my-account-nav:hover {
+    color: #9F8752;
+}
+
+.contact-list i{
+    font-size: 24px;
+    color: #000;
+    padding-right: 2px;
+    transition: all ease 0.3s;
+}
+
+.contact-list {
+    margin-left: 15px;
+    padding: 0 20px;
+}
+
+.contact-list:hover i {
+    color: #9F8752;
+}

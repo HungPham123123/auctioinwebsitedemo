@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Marcellus';
+    src: url(../font-text/Marcellus-Regular.ttf);
+}
+
+.home-title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.home-title-container .home-title h1 {
+    font-family: 'Marcellus', sans-serif;
+    font-size: 134px;
+}
+.home-discover-button {
+    margin-bottom: 150px;
+}
+
+.home-discover-button a {
+    font-family: 'Marcellus', sans-serif;
+    padding: 17px 80px 18px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #9F8752;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all ease 0.3s;
+    letter-spacing: 2px;
+}
+
+.home-discover-button a:hover {
+    background-color: #474646;
+}
+
+.auction-popular-container {
+    max-width: 1440px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.auction-items {
+    max-height: 605px;
+    height: 605px;
+    width: 475px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.auction-items .auction-image img {
+    height: 530px;
+    max-height: 530px;
+    width: 100%;
+}
+
+.auction-image {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+}
+.auction-items .auction-image img {
+    transition: all ease 1s;
+}
+
+.auction-items:hover .auction-image img {
+    transform: scale(1.2);
+}
+.auction-items .auction-name-price .auction-name span {
+    font-family: 'Marcellus', sans-serif;
+    font-size: 24px;
+    color: #000;
+}
+
+.auction-items .wrap-auction-detail {
+    text-decoration: none;
+    padding-top: 20px;
+    z-index: 50;
+    cursor: unset;
+}
+
+.auction-items .wrap-auction-detail .auction-name span{
+    cursor: pointer;
+}
+
+.auction-items .auction-name-price {
+    padding-top: 10px;
+}
+
+.auction-items .auction-name-price .auction-category p {
+    font-family: 'Marcellus', sans-serif;
+    color: #817F79;
+}
+
+.auction-items .auction-name-price .space-between {
+    justify-content: space-between;
+    display: flex;
+}
+
+.auction-items .auction-name-price .auction-price {
+    font-family: 'Marcellus', sans-serif;
+    font-size: 17px;
+    color: #000;
+}
+
+.auction-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.auction-time .auction-time-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.auction-time .auction-time-items .countdown-time {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.countdown-box {
+    position: absolute;
+    background: rgba(15, 16, 19, 0.82);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px 0;
+    border-radius: 7px;
+    backdrop-filter: blur();
+    height: 50px;
+    top: -80px;
+    transition: top 0.2s ease;
+}
+
+.auction-items:hover .countdown-box {
+    top: 0px;
+}
+
+.auction-time .auction-time-items .countdown-time .auction-timer span {
+    font-family: 'Marcellus', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+.auction-date {
+    font-size: 15px;
+    font-weight: 400!important;
+}
+
+.bid-now-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bid-now-button button{
+    background-color: #FFFDE7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -50px;
+}
+.bid-now-button button a {
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+
+.bid-now-button .bid-button {
+    transition: all ease 0.3s;
+}
+
+.auction-items:hover .bid-button {
+    bottom: 15px;
+}
+
+.bid-button:hover {
+    padding: 13px 24px;
+}
+
+.ending-auction-container {
+    margin-bottom: 50px;
+}
+
+.ending-auction-container h2 {
+    font-family: 'Marcellus', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.ending-auction-container p {
+    font-family: 'Marcellus', sans-serif;
+    color: #5f5f5f;
+    font-size: 18px;
+}
+
+.upcoming-auction-container {
+    position: relative;
+    background-color: #e8eaf6;
+    padding: 20px;
+    overflow: visible;
+}
+
+.auction-box {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+.upcoming-auction-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 187px;
+    background-color: #F2F2F2;
+}
+
+.upcoming-auction-container::before {
+    display: inline-block;
+    content: "";
+}
+
+.upcoming-auction-container h2{
+    font-family: 'Marcellus', sans-serif;
+    position: relative;
+    font-weight: 700;
+    font-size: 34px;
+    z-index: 10;
+    margin-bottom: 20px;
+}
+
+.auction-upcoming-container {
+    max-width: 1440px;
+    margin-bottom: 10px;
+}
+
+.auction-1440 {
+    max-width: 1440px;
+}
+
+.auction-1450 {
+    max-width: 1470px;
+}
+
+.font-title-homepage {
+    font-family: 'Marcellus', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.by-hand-container {
+    margin-bottom: 50px;
+}
+
+.category-items {
+    margin: 0 11px 25px;
+    max-width: 217px;
+}
+
+.category-items .category-img {
+    height: 200px;
+}
+
+.category-items .category-img img {
+    height: 100%;
+    width: 100%;
+    transition: all ease 0.2s;
+    border-radius: 10px;
+}
+
+.category-items .category-name-items {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.category-items .category-name-items h2 {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.Link-category-box {
+    text-decoration: none;
+}
+
+
+.Link-category-box:hover .category-img img {
+    transform: scale(1.05);
+}
+
+.Link-category-box:hover .category-name-items h2 {
+    color: #9F8752;
+}
