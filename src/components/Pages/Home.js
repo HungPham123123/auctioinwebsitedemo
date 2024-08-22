@@ -11,7 +11,7 @@ function Home() {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('October 30, 2024 00:00:00').getTime();
+        const countdownDate = new Date('October 21, 2024 00:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -91,6 +91,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -139,6 +142,9 @@ function Home() {
                         <button className="bid-button">
                         <Link>Bid Now</Link>
                         </button>
+                    </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
                     </div>
                     </div>
                     <Link className="wrap-auction-detail">
@@ -189,6 +195,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -237,6 +246,9 @@ function Home() {
                         <button className="bid-button">
                         <Link>Bid Now</Link>
                         </button>
+                    </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
                     </div>
                     </div>
                     <Link className="wrap-auction-detail">
@@ -287,6 +299,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -336,6 +351,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -363,8 +381,8 @@ function Home() {
                 </div>
             <div className="container auction-upcoming-container">
                 <div className="row auction-box">
-                <div className="auction-items">
-                    <div className="auction-image">
+                <div className="auction-items auction-items-smaller">
+                    <div className="auction-image small-img-auction">
                         <img src="images/productimage1.jpg"/>
                         <div className="auction-time">
                         <div className="auction-time-items">
@@ -395,6 +413,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -412,8 +433,8 @@ function Home() {
                     </div>
                     </Link>
                 </div>
-                <div className="auction-items">
-                    <div className="auction-image">
+                <div className="auction-items auction-items-smaller">
+                    <div className="auction-image small-img-auction">
                         <img src="images/productimage2.jpg"/>
                         <div className="auction-time">
                         <div className="auction-time-items">
@@ -444,6 +465,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -461,8 +485,8 @@ function Home() {
                     </div>
                     </Link>
                 </div>
-                <div className="auction-items">
-                    <div className="auction-image">
+                <div className="auction-items auction-items-smaller">
+                    <div className="auction-image small-img-auction">
                         <img src="images/productimage3.jpg"/>
                         <div className="auction-time">
                         <div className="auction-time-items">
@@ -493,6 +517,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -510,8 +537,8 @@ function Home() {
                     </div>
                     </Link>
                 </div>
-                <div className="auction-items">
-                    <div className="auction-image">
+                <div className="auction-items auction-items-smaller">
+                    <div className="auction-image small-img-auction">
                         <img src="images/productimage4.jpg"/>
                         <div className="auction-time">
                         <div className="auction-time-items">
@@ -542,6 +569,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -559,8 +589,8 @@ function Home() {
                     </div>
                     </Link>
                 </div>
-                <div className="auction-items">
-                    <div className="auction-image">
+                <div className="auction-items auction-items-smaller">
+                    <div className="auction-image small-img-auction">
                         <img src="images/productimage5.jpg"/>
                         <div className="auction-time">
                         <div className="auction-time-items">
@@ -591,6 +621,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -608,8 +641,8 @@ function Home() {
                     </div>
                     </Link>
                 </div>
-                <div className="auction-items">
-                    <div className="auction-image">
+                <div className="auction-items auction-items-smaller">
+                    <div className="auction-image small-img-auction">
                         <img src="images/productimage6.jpg"/>
                         <div className="auction-time">
                         <div className="auction-time-items">
@@ -640,6 +673,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -664,8 +700,8 @@ function Home() {
                     <h2 className="font-title-homepage">Products picked by hand</h2>
                     </div>
                     <div className="row">
-                    <div className="auction-items">
-                    <div className="auction-image">
+                    <div className="auction-items auction-items-smaller">
+                    <div className="auction-image small-img-auction">
                         <img src="images/productimage7.jpg"/>
                         <div className="auction-time">
                         <div className="auction-time-items">
@@ -696,6 +732,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -713,8 +752,8 @@ function Home() {
                     </div>
                     </Link>
                 </div>
-                <div className="auction-items">
-                    <div className="auction-image">
+                <div className="auction-items auction-items-smaller">
+                    <div className="auction-image small-img-auction">
                         <img src="images/productimage8.jpg"/>
                         <div className="auction-time">
                         <div className="auction-time-items">
@@ -745,6 +784,9 @@ function Home() {
                         <Link>Bid Now</Link>
                         </button>
                     </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
+                    </div>
                     </div>
                     <Link className="wrap-auction-detail">
                     <div className="auction-name-price">
@@ -762,8 +804,8 @@ function Home() {
                     </div>
                     </Link>
                 </div>
-                <div className="auction-items">
-                    <div className="auction-image">
+                <div className="auction-items auction-items-smaller">
+                    <div className="auction-image small-img-auction">
                         <img src="images/productimage9.jpg"/>
                         <div className="auction-time">
                         <div className="auction-time-items">
@@ -793,6 +835,9 @@ function Home() {
                         <button className="bid-button">
                         <Link>Bid Now</Link>
                         </button>
+                    </div>
+                    <div className="favorite-button">
+                    <i class="fa-regular fa-heart"></i>
                     </div>
                     </div>
                     <Link className="wrap-auction-detail">
