@@ -42,15 +42,13 @@ function Home() {
 
     return(
         <div>
-        <div className="container">
-            <div className="home-title-container">
-                <div className="home-title">
-                <h1>Discover the Rarest Antique that exist</h1>
-                </div>
-                <div className="home-discover-button">
-                        <Link>Discover</Link>
-                </div>
-            </div>
+        <div className="home-video-container">
+        <video autoPlay loop muted>
+            <source src="video/6210377_Globe Trip Planning Location_By_Zed_Artlist_HD.mp4" type="video/mp4"/>
+        </video>
+        <div className="home-video-text">
+            <h1>FOX AUCTION</h1>
+        </div>
             </div>
 
             <div className="container auction-popular-container">

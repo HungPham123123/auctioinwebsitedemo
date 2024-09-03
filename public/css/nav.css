@@ -16,14 +16,25 @@
 
 .nav-container {
     background-color: transparent;
-    padding: 25px 55px 25px 55px;
+    padding: 25px 55px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 125px;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
-
+.nav-container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .logo-name {
     font-family: 'Marcellus', sans-serif;

@@ -1,0 +1,40 @@
+.main-image {
+    width: 90%;  /* TÄƒng kĂ­ch thÆ°á»›c hĂ¬nh áº£nh chĂ­nh */
+    max-height: 500px;  /* Giá»¯ láº¡i giá»›i háº¡n chiá»u cao */
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .img-thumbnail {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .custom-line {
+    height: 3px;
+    background-color: black;
+  }
+  
+  .product-info {
+    font-size: 14px;
+  }
+  
+  .product-title h2 {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .product-bid h3 {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .bid-input input {
+    width: 100%;
+  }
+  
+  .seller-info p {
+    margin-bottom: 5px;
+  }
+  

@@ -3,34 +3,32 @@
     src: url(../font-text/Marcellus-Regular.ttf);
 }
 
-.home-title {
-    margin-top: 100px;
-    margin-bottom: 50px;
+
+.home-video-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
 
-.home-title-container .home-title h1 {
-    font-family: 'Marcellus', sans-serif;
-    font-size: 134px;
-}
-.home-discover-button {
-    margin-bottom: 150px;
+.home-video-container video {
+    width: 100%;
+    height: 100%;
 }
 
-.home-discover-button a {
-    font-family: 'Marcellus', sans-serif;
-    padding: 17px 80px 18px;
-    background-color: black;
-    border-radius: 20px;
-    font-size: 16px;
-    color: #9F8752;
-    text-decoration: none;
-    font-weight: 700;
-    transition: all ease 0.3s;
-    letter-spacing: 2px;
-}
-
-.home-discover-button a:hover {
-    background-color: #474646;
+.home-video-text h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0px;
+    font-weight: 900;
+    mix-blend-mode: screen;
+    animation: scaleUp 5s forwards;
 }
 
 .auction-popular-container {
@@ -144,7 +142,7 @@
 }
 
 .auction-items:hover .countdown-box {
-    top: 0px;
+    top: 0px;   
 }
 
 .auction-time .auction-time-items .countdown-time .auction-timer span {
@@ -336,4 +334,13 @@
     max-width: 451px!important;
     height: 299px!important;
     max-height: 299px!important;
+}
+
+@keyframes scaleUp {
+    0% {
+        font-size: 0px;
+    }
+    100% {
+        font-size: 160px;
+    }
 }
